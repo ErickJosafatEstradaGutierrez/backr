@@ -1,11 +1,9 @@
 {
-  "name": "esp32-ota-server",
+  "name": "esp32-backend",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "dev": "vercel dev",
     "start": "vercel dev"
   },
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "dependencies": {}
 }
