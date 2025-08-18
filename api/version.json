@@ -1,6 +1,8 @@
 export default function handler(req, res) {
-  res.setHeader("Content-Type", "application/json");
   res.status(200).json({
-    version: "v1.1.2"   // <-- cámbialo cuando generes nueva versión
+    version: "1.0.0",
+    name: "ESP32 Backend API",
+    status: "online",
+    author: "Erick"
   });
 }
