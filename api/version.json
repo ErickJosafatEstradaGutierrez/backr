@@ -1,8 +1,3 @@
 export default function handler(req, res) {
-  res.status(200).json({
-    version: "1.0.0",
-    name: "ESP32 Backend API",
-    status: "online",
-    author: "Erick"
-  });
+  res.status(200).json({ version: "1.0.0", status: "ok" });
 }
