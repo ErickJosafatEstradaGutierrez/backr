@@ -1,3 +1,6 @@
 export default function handler(req, res) {
-  res.status(200).json({ version: "v1.1.2" });
+  res.setHeader("Content-Type", "application/json");
+  res.status(200).json({
+    version: "v1.1.2"   // <-- cámbialo cuando generes nueva versión
+  });
 }
