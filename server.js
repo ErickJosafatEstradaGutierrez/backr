@@ -2,7 +2,7 @@ import express from "express";
 import path from "path";
 
 const app = express();
-const SERVER_FIRMWARE_VERSION = "v1.1.4";
+const SERVER_FIRMWARE_VERSION = "v1.1.5";
 
 // Ruta donde estarán los .bin (carpeta raíz/public/download_bin)
 const BIN_FOLDER = path.join(process.cwd(), "public", "download_bin");
